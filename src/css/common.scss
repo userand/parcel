@@ -1,0 +1,13 @@
+body{
+    background: #eee;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row nowrap;
+
+    >li{
+        list-style: none;
+        margin-right:20px;
+    }
+}

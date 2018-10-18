@@ -1,0 +1,30 @@
+#nav li {
+    list-style: none;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #0000FF;
+    border-bottom: none;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#cont div {
+    width: 210px;
+    height: 150px;
+    border: 1px solid #0000FF;
+    margin-left: 10px;
+    clear: both;
+    display: none;
+
+}
+
+#cont div:first{
+    display: block;
+}
+
+
+.active {
+    background: #AFEEEE;
+}

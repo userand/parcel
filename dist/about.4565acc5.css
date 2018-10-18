@@ -1,0 +1,17 @@
+body {
+  background: #eee;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.nav > li {
+  list-style: none;
+  margin-right: 20px;
+}

@@ -1,20 +1,25 @@
 {
-  "name": "parcel",
+  "name": "parcel-demo",
   "version": "1.0.0",
+  "author": "gaoerli",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/userand/parcel.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production && parcel build src/view/*.html -d build --public-url ./",
+    "dev": "parcel src/view/*.html"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/userand/parcel/issues"
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.3"
   },
-  "homepage": "https://github.com/userand/parcel#readme"
+  "dependencies": {
+    "jquery": "^1.12.4"
+  }
 }
