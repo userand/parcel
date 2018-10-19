@@ -1,8 +1,9 @@
-import $ from 'jquery'
-import {Utils} from './utils'
 import '../css/common.scss'
 import '../css/index.scss'
-
+import '../css/scss/bootstrap.scss'
+import $ from 'jquery'
+import './plugin/tab'
+import {Utils} from './utils'
 
 $('#tab').tab({
     tabType: 'mouseover'

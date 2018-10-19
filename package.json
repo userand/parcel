@@ -4,9 +4,8 @@
   "author": "gaoerli",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production && parcel build src/view/*.html -d build --public-url ./",
-    "dev": "parcel src/view/*.html"
+    "build": "NODE_ENV=production && parcel build src/*.html -d build --public-url ./",
+    "dev": "parcel src/*.html --no-hmr --no-cache --no-source-maps "
   },
   "keywords": [],
   "license": "ISC",
