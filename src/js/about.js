@@ -1,6 +1,3 @@
-
-
-
 import '../css/common.scss'
 import '../css/about.scss'
 
