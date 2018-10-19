@@ -1,26 +1,8 @@
 # parcel构建多页项目
 
-#### 针对传统多页面项目（如企业网站|博客），使用parcel构建（ es6+scss+jquery ）  ,  打包后可兼容ie9及以上版本浏览器
 
+针对传统多页面项目（如企业网站|博客），使用parcel构建（ es6+scss+jquery ）  ,  打包后可兼容ie9及以上版本浏览器
 
-`
-  目录机构
-  -src
- 
-  --css
-  ---index.scss
-  ---about.scss
-  
-  --js
-  ---plugin
-  ----tab.js   //引用jquery插件
-  ---index.js
-  ---about.js
-  
-  --images
-  ---a.png
-  
-`
 
 #### 1.克隆仓库
 `
