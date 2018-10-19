@@ -21,7 +21,7 @@ npm install
 npm run dev
 `
 
-### 5.生产环境打包
+#### 5.生产环境打包
 `
 npm run build
 `
